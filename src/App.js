@@ -1,8 +1,10 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
+
 import Home from "./Pages/Home/Home";
 import Questionnaire from "./Pages/Questionnaire/Questionnaire";
+import './App.css'
 
 function App() {
   return (

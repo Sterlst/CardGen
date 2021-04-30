@@ -1,10 +1,11 @@
 import React from 'react';
+import WelcomeMessage from './WelcomeMessage.js';
 
 const Home = () => {
 
     return (
         <div>
-            <p>Home Page</p>
+            <WelcomeMessage></WelcomeMessage>
             <a href="/Questionnaire">Start</a>
         </div>    
     );
