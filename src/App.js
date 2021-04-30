@@ -3,15 +3,16 @@ import { Switch, Route } from "react-router-dom";
 
 
 import Home from "./Pages/Home/Home";
-import Questionnaire from "./Pages/Questionnaire/Questionnaire";
-import './App.css'
+import About from "./Pages/About/About";
+import Navigationbar from './Components/Navigationbar';
 
 function App() {
   return (
     <div className="App">
+      <Navigationbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/Questionnaire" component={Questionnaire} />
+        <Route exact path="/About" component={About} />
       </Switch>
     </div>
   );

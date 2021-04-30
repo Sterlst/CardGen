@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <div>
             <WelcomeMessage></WelcomeMessage>
-            <a href="/Questionnaire">Start</a>
         </div>    
     );
 }
