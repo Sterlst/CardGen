@@ -5,7 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Navigationbar from './Components/Navigationbar';
-import './App.css'
+import './App.css';
 
 function App() {
   return (
