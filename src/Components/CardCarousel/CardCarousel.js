@@ -6,19 +6,32 @@ import PosterCard from './PosterCard';
 
 const CardCarousel = () => {
     const responsive = {
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 5
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 3
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-      };
+      superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 2000 },
+        items: 6
+      },
+      desktop: {
+        breakpoint: { max: 2000, min: 1200 },
+        items: 5
+      },
+      smallDesktop: {
+        breakpoint: { max: 1200, min: 950 },
+        items: 4
+      },
+      largeTablet: {
+        breakpoint: { max: 950, min: 715 },
+        items: 3
+      },
+      tablet: {
+        breakpoint: { max: 715, min: 480 },
+        items: 2
+      },
+      mobile: {
+        breakpoint: { max: 480, min: 0 },
+        items: 1
+      }
+    };
     return (
         <Carousel
             showDots={true}
