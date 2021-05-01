@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*  ./WelcomeMessage.css  */
+
+.welcome-message {
+    font-family: 'Dancing Script', cursive;
+    line-height: 0.4;
+    left: 0;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+  }
+
+.be-thoughtful h1 {
+    font-size: large;
+}
+
+.signatures h1 {
+    font-size: larger;
+}
+
+.slogan h1 {
+    font-size: large;
+}
