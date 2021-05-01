@@ -4,7 +4,6 @@ import CardBack from './CardBack';
 import CardFront from './CardFront';
 
 const Card = (props) => {
-    const { title, link } = props || {};
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleClick = (e) => {
@@ -14,8 +13,8 @@ const Card = (props) => {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-            <CardFront title={title} link={link} handleClick={handleClick} />
-            <CardBack title={title} handleClick={handleClick}/>
+            <CardFront {...props} handleClick={handleClick} />
+            <CardBack {...props} handleClick={handleClick}/>
         </ReactCardFlip>
     );
 }

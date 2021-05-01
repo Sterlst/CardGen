@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import './CardBack.css';
 
 const CardBack = (props) => {
-    const { title, handleClick } = props || {};
+    const { title, backMessage, handleClick } = props || {};
     return (
         <div className='back-card-container'>
             <div className=' back-card-button-container'>
@@ -13,7 +13,7 @@ const CardBack = (props) => {
                 <Button  variant="info" onClick={handleClick}>Go Back</Button>
             </div>
             <h4>{title}</h4>
-            <p>Select an option for whom you want the signatures to be written for</p>
+            <p>{backMessage}</p>
         </div>
     );
 }
