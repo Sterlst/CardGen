@@ -3,9 +3,10 @@ import { Card } from 'react-bootstrap';
 import './PosterCard.css';
 
 const PosterCard = (props) => {
-    const { title } = props || {};
+    const { title, link } = props || {};
     return (
         <Card className='poster-card'>
+            <Card.Img variant="top" src={link} />
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>
