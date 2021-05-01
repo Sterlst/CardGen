@@ -8,19 +8,25 @@
     margin-top: -100px;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 35%;
     width: 100%;
 
   }
 
-.be-thoughtful h1 {
-    font-size: large;
+.be-thoughtful {
+    font-size: 24px;
+    color: #EB5757;
+    padding-right: 335px;
+    line-height: 0.25;
 }
 
-.signatures h1 {
-    font-size: larger;
+.signature {
+    font-size: 60px;
+    color: #3f3631;
 }
 
-.slogan h1 {
-    font-size: large;
+.slogan {
+    font-size: 48px;
+    color: #9C8E76;
+    line-height: 0.75;
 }
