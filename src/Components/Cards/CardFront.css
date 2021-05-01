@@ -1,0 +1,13 @@
+.front-card-container {
+    margin: 0px 25px;
+    text-align: center;
+    height: 100%;
+}
+
+.front-card-container img {
+    height: 220px;
+    width: 160px;
+    margin: 0px auto;
+    border: 1px solid black;
+    
+}
