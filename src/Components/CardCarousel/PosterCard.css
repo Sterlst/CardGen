@@ -1,0 +1,9 @@
+.poster-card {
+    margin: 0px 25px;
+}
+
+.poster-card img {
+    height: 200px;
+    width: 140px;
+    margin: 0px auto;
+}

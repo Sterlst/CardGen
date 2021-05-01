@@ -1,0 +1,15 @@
+.react-multi-carousel-list {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+
+.react-multiple-carousel__arrow--right { 
+    right: 5px !important; 
+}
+
+.react-multiple-carousel__arrow--left {
+    left: 5px !important;
+}
