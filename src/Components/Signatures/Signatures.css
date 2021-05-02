@@ -1,0 +1,61 @@
+.signatures-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns:  150px 150px 150px auto auto auto 150px 150px 150px;
+}
+
+.grid-item-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-2 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-3 {
+    grid-row-start: 3;
+    grid-column-start: 6;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-4 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-5 {
+    grid-row-start: 5;
+    grid-column-start: 6;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-6 {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
+
+.grid-item-7 {
+    grid-row-start: 7;
+    grid-column-start: 6;
+    text-align: center;
+    padding: 0.5em;
+    margin: 10px;
+}
