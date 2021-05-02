@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*  ./Signautures.css  */
+
+.signatures {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #9C8E76;
+}
+
+.signature-container-1 {
+    line-height: 0.4;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    width: 100%;
+    padding-left: 250px;
+    margin-top: -250px;
+    line-height: 3;
+}
+
+.signature-container-2 {
+    line-height: 0.4;
+    left: 0;
+    position: absolute;
+    text-align: right;
+    top: 35%;
+    width: 100%;
+    padding-right: 250px;
+    margin-top: -250px;
+    line-height: 3;
+}
