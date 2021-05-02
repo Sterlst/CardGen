@@ -68,7 +68,7 @@ export const CardTypes = {
     },
     Get_Well: {
         title: "Get Well",
-        link: "/Images/Cards/Get Well_Card.png",
+        link: "/Images/Cards/Get_Well_Card.png",
         frontMessage: "Looking for how to express yourself to that special someone? Look no further! We have all the tools you need.",
         backMessage: "Select an option for whom you want the signatures to be written for"
     },
