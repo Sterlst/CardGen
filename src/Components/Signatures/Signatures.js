@@ -4,15 +4,17 @@ import './Signatures.css';
 
 const Signatures = () => {
     return (
-
-        <div className='signatures-container'>
-            <p1 className='grid-item-1'>Dummy text 1</p1>
-            <p1 className='grid-item-2'>Dummy text 2</p1>
-            <p1 className='grid-item-3'>Dummy text 3</p1>
-            <p1 className='grid-item-4'>Dummy text 4</p1>
-            <p1 className='grid-item-5'>Dummy text 5</p1>
-            <p1 className='grid-item-6'>Dummy text 6</p1>
-            <p1 className='grid-item-7'>Dummy text 7</p1>
+        <div className='signatures'>
+            <div className='signature-container-1'>
+                <p className='signature-1'>Signature 1</p>
+                <p className='signature-2'>Sigature 2</p>
+                <p className='signature-3'>Sigature 3</p>
+            </div>
+            <div className='signature-container-2'>
+                <p className='signature-4'>Signature 4</p>
+                <p className='signature-5'>Sigature 5</p>
+                <p className='signature-6'>Sigature 6</p>
+            </div>
         </div>
 
     );
