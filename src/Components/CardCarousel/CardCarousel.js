@@ -24,7 +24,7 @@ const CardCarousel = () => {
                   frontMessage={key.frontMessage} 
                   backMessage={key.backMessage} 
                   isFlipped={index === currentFlippedIndex} 
-                  handleClick={() => setCurrentFlippedIndex(index)}
+                  handleCardClick={() => setCurrentFlippedIndex(index)}
                 />
             )))
             }

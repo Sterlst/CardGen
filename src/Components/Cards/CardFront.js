@@ -21,9 +21,9 @@ const cardFrontVariants = {
    
 
 const CardFront = (props) => {
-    const { title, link, frontMessage, handleClick } = props || {};
+    const { title, link, frontMessage, handleCardClick } = props || {};
     return (
-        <motion.div className='front-card-container' onClick={handleClick}
+        <motion.div className='front-card-container' onClick={handleCardClick}
             variants={cardFrontVariants}
             initial="hidden"
             animate="show"
