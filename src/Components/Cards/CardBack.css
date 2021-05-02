@@ -5,6 +5,8 @@
 }
 
 .back-card-button-container {
+    display:flex;
+    flex-direction:column;
     height: 220px;
     width: 160px;
     margin: 0px auto;
@@ -13,5 +15,18 @@
 }
 
 .back-card-button-container button {
-    margin: 8px;
+    flex: 1;
+    margin: 15px;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn {
+    color: #fff;
+    background-color: #4b708f !important;
+    border-color: #000 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: #fff;
+    background-color: #275e8b !important;
+    border-color: #000 !important;
 }
