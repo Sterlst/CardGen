@@ -85,3 +85,79 @@ export const CardTypes = {
         backMessage: "Select an option for whom you want the signatures to be written for"
     }
 }
+
+
+export const dummySignatures = [
+    {
+        id: 1,
+        occassion: "Valentine's Day",
+        relationship: "Friends",
+        signature: "Happy Valentine's Day"
+    },
+    {
+        id: 2,
+        occassion: "Birthday",
+        relationship: "Friends",
+        signature: "Happy Birthday!"
+    },
+    {
+        id: 3,
+        occassion: "Christmas",
+        relationship: "Family",
+        signature: "Merry Christmas"
+    },
+    {
+        id: 4,
+        occassion: "Easter",
+        relationship: "Friends",
+        signature: "Happy Easter"
+    },
+    {
+        id: 5,
+        occassion: "Retirement",
+        relationship: "Acquaintances",
+        signature: "It was a pleasure working with you!"
+    },
+    {
+        id: 6,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations one!"
+    },
+    {
+        id: 7,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations two!"
+    },
+    {
+        id: 8,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations three!"
+    },
+    {
+        id: 9,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations four!"
+    },
+    {
+        id: 10,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations five!"
+    },
+    {
+        id: 11,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations six!"
+    },
+    {
+        id: 12,
+        occassion: "Wedding",
+        relationship: "Friends",
+        signature: "Congratulations seven!"
+    }
+]

@@ -5,7 +5,7 @@ import { ResponsiveCarousel, CardTypes } from '../../Constants/constants';
 import './CardCarousel.css';
 import Card from '../Cards/Card';
 
-const CardCarousel = () => {
+const CardCarousel = (props) => {
     const [ currentFlippedIndex, setCurrentFlippedIndex ] = useState(-1);
 
     return (
@@ -25,6 +25,7 @@ const CardCarousel = () => {
                   backMessage={key.backMessage} 
                   isFlipped={index === currentFlippedIndex} 
                   handleCardClick={() => setCurrentFlippedIndex(index)}
+                  {...props}
                 />
             )))
             }
