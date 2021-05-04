@@ -4,12 +4,26 @@ import './CardBack.css';
 
 const CardBack = (props) => {
     const { title, backMessage } = props || {};
+
+    const handleClickFamily = () => {
+        props.setOccassion(title)
+        props.setRelationship('Family');
+    }
+    const handleClickFriend = () => {
+        props.setOccassion(title)
+        props.setRelationship('Friends');
+    }
+    const handleClickAcquaintance = () => {
+        props.setOccassion(title)
+        props.setRelationship('Acquaintance');
+    }
+
     return (
-        <div className='back-card-container'>
+        <div className='back-card-container' >
             <div className='back-card-button-container'>
-                <Button>Family</Button>
-                <Button>Friend</Button>
-                <Button>Acquaintance</Button>
+                <Button onClick={handleClickFamily}>Family</Button>
+                <Button onClick={handleClickFriend}>Friends</Button>
+                <Button onClick={handleClickAcquaintance}>Acquaintances</Button>
             </div>
             <h4>{title}</h4>
             <p>{backMessage}</p>
