@@ -11,7 +11,7 @@ const CardBack = (props) => {
     }
     const handleClickFriend = () => {
         props.setOccassion(title)
-        props.setRelationship('Friends');
+        props.setRelationship('Friend');
     }
     const handleClickAcquaintance = () => {
         props.setOccassion(title)
@@ -22,8 +22,8 @@ const CardBack = (props) => {
         <div className='back-card-container' >
             <div className='back-card-button-container'>
                 <Button onClick={handleClickFamily}>Family</Button>
-                <Button onClick={handleClickFriend}>Friends</Button>
-                <Button onClick={handleClickAcquaintance}>Acquaintances</Button>
+                <Button onClick={handleClickFriend}>Friend</Button>
+                <Button onClick={handleClickAcquaintance}>Acquaintance</Button>
             </div>
             <h4>{title}</h4>
             <p>{backMessage}</p>

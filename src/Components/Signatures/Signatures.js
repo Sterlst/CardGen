@@ -3,13 +3,12 @@ import React from 'react';
 import './Signatures.css';
 
 const Signatures = (props) => {
-    const { occassion, relationship, dummySignatures } = props || {};
+    const { occassion, relationship, easybaseData } = props || {};
     
-    let filteredSignatures = dummySignatures.filter((signature)=>filterSignatures(occassion, relationship, signature));
+    let filteredSignatures = easybaseData.filter((signature)=>filterSignatures(occassion, relationship, signature));
     let randomSignatures = [];
 
     if (filteredSignatures.length > 5) {
-        console.log(filteredSignatures)
         randomSignatures = filteredSignatures.sort(() => .5 - Math.random()).slice(0,6);
     }
 
