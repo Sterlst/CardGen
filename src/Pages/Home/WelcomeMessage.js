@@ -30,8 +30,7 @@ const WelcomeMessage = () => {
         <motion.h1 className="be-thoughtful"
             variants={messageVariants(1.5, 0, -100)}
             initial="hidden"
-            animate="show"
-            whileHover="hover">
+            animate="show">
             Be Thoughtful
         </motion.h1>
         <motion.h1 className="signature"

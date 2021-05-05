@@ -1,5 +1,8 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
+import Logo from '../Images/Logo.svg';
+import HomeIcon from '../Images/Home.svg';
+import AboutIcon from '../Images/About.svg';
 
 import './Navigationbar.css';
 
@@ -7,17 +10,23 @@ const Navigationbar = ()=> {
 
     return (
         <Navbar className='navigation-bar'>
-            <Navbar.Brand href="/">
+            <Navbar.Brand className='navbar-logo'>
                 <img
                     alt=""
-                    src="Images/Home_Icon.png"
+                    src={Logo}
+                /> {' '}
+            </Navbar.Brand>
+            <Navbar.Brand className='home-logo' href="/">
+                <img
+                    alt=""
+                    src={HomeIcon}
                 />{' '}
                 Home
             </Navbar.Brand>
-            <Navbar.Brand href="/About">
+            <Navbar.Brand className='about-logo' href="/About">
                 <img
                     alt=""
-                    src="Images/About_Us_Icon.png"
+                    src={AboutIcon}
                 />{' '}
                 About
             </Navbar.Brand>

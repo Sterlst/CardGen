@@ -3,9 +3,38 @@
 .navigation-bar {
     font-family: 'Open Sans', sans-serif;
     background-color: transparent;
+    animation: fadeIn 3s;
 }
 
 .navbar-brand {
     margin: 0px 15px;
 }
 
+.about-logo:hover {
+    transform: translateY(-3px);
+    transition: 0.5s;
+  }
+
+.home-logo:hover {
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
+
+.navbar-logo:hover {
+    animation: rotate 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(0rem);
+    }
+  }
+ 
