@@ -3,30 +3,24 @@
 
 .signatures {
     font-family: 'Dancing Script', cursive;
-    font-size: 36px;
+    font-size: 26px;
     color: #9C8E76;
 }
 
 .signature-container-1 {
-    line-height: 0.4;
     left: 0;
-    position: absolute;
+    float: left;
     text-align: left;
-    top: 35%;
-    width: 100%;
-    padding-left: 250px;
-    margin-top: -250px;
-    line-height: 3;
+    width: 30%;
+    padding: 2em;
+    line-height: 2;
 }
 
 .signature-container-2 {
-    line-height: 0.4;
     left: 0;
-    position: absolute;
-    text-align: right;
-    top: 35%;
-    width: 100%;
-    padding-right: 250px;
-    margin-top: -250px;
-    line-height: 3;
+    float: right;
+    text-align: left;
+    width: 30%;
+    padding: 2em;
+    line-height: 2;
 }
