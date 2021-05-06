@@ -10,20 +10,20 @@ const Navigationbar = ()=> {
 
     return (
         <Navbar className='navigation-bar'>
-            <Navbar.Brand className='navbar-logo'>
+            <Navbar.Brand className='navbar-logo mr-auto'>
                 <img
                     alt=""
                     src={Logo}
                 /> {' '}
             </Navbar.Brand>
-            <Navbar.Brand className='home-logo' href="/">
+            <Navbar.Brand className='navbar-home ml-auto' href="/">
                 <img
                     alt=""
                     src={HomeIcon}
                 />{' '}
                 Home
             </Navbar.Brand>
-            <Navbar.Brand className='about-logo' href="/About">
+            <Navbar.Brand lassName='navbar-about ml-auto' href="/About">
                 <img
                     alt=""
                     src={AboutIcon}

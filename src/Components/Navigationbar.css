@@ -10,16 +10,6 @@
     margin: 0px 15px;
 }
 
-.about-logo:hover {
-    transform: translateY(-3px);
-    transition: 0.5s;
-  }
-
-.home-logo:hover {
-    transform: translateY(-3px);
-    transition: 0.5s;
-}
-
 .navbar-logo:hover {
     animation: rotate 2s;
 }
