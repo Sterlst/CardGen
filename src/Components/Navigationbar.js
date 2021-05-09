@@ -6,8 +6,7 @@ import AboutIcon from '../Images/About.svg';
 
 import './Navigationbar.css';
 
-const Navigationbar = ()=> {
-
+const Navigationbar = () => {
     return (
         <Navbar className='navigation-bar'>
             <Navbar.Brand className='navbar-logo mr-auto'>
