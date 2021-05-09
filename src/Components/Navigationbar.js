@@ -6,7 +6,7 @@ import './Navigationbar.css';
 const Navigationbar = ()=> {
 
     return (
-        <Navbar className='navigation-bar'>
+        <Navbar className='navigation-bar' expand='sm'>
             <Navbar.Brand href="/">
                 <img
                     alt=""

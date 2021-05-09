@@ -1,8 +1,6 @@
 .react-multi-carousel-list {
-    position: fixed;
-    bottom: 50px;
-    width: 100%;
-    padding-bottom: 25px;
+    grid-area: c;
+    margin: 15px;
 }
 
 

@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px) {
+    .grid-container-mobile {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 2em;
+        grid-template-areas:
+            "w"
+            "s1"
+            "s2"
+            "s3"
+            "s4"
+            "s5"
+            "s6"
+            "c" !important
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.5em;
+    grid-template-areas:
+        "s1 s2 s3 s4"
+        "s5 w w s6"
+        "c c c c"
+}

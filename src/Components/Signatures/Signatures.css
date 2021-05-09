@@ -1,26 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import '../Cards/CardBack.css';
 /*  ./Signautures.css  */
 
-.signatures {
+.signature-default {
     font-family: 'Dancing Script', cursive;
     font-size: 26px;
     color: #9C8E76;
+    text-align: left;
 }
 
-.signature-container-1 {
-    left: 0;
-    float: left;
-    text-align: left;
-    width: 30%;
-    padding: 2em;
-    line-height: 2;
+.signature-1 {
+    grid-area: s1;
+    margin: 15px;
 }
 
-.signature-container-2 {
-    left: 0;
-    float: right;
-    text-align: left;
-    width: 30%;
-    padding: 2em;
-    line-height: 2;
+.signature-2 {
+    grid-area: s2;
+    margin: 15px;
+}
+
+.signature-3 {
+    grid-area: s3;
+    margin: 15px;
+}
+
+.signature-4 {
+    grid-area: s4;
+    margin: 15px;
+}
+
+.signature-5 {
+    grid-area: s5;
+    margin: 15px;
+}
+
+.signature-6 {
+    grid-area: s6;
+    margin: 15px;
 }
