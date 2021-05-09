@@ -25,8 +25,7 @@ const messageVariants = (delayTime, xstart, ystart) => {
 
 const WelcomeMessage = () => {
     return (
-    <div className="welcome-message"
-    >
+    <div className="welcome-message">
         <motion.h1 className="be-thoughtful"
             variants={messageVariants(1.5, 0, -100)}
             initial="hidden"

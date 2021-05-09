@@ -14,18 +14,15 @@ const Signatures = (props) => {
 
 
     return (
-        <div className='signatures'>
-            <div className='signature-container-1'>
-                <p className='signature-1'>{randomSignatures.length > 5 ? randomSignatures[0].signature : ''}</p>
-                <p className='signature-2'>{randomSignatures.length > 5 ? randomSignatures[1].signature : ''}</p>
-                <p className='signature-3'>{randomSignatures.length > 5 ? randomSignatures[2].signature : ''}</p>
-            </div>
-            <div className='signature-container-2'>
-                <p className='signature-4'>{randomSignatures.length > 5 ? randomSignatures[3].signature : ''}</p>
-                <p className='signature-5'>{randomSignatures.length > 5 ? randomSignatures[4].signature : ''}</p>
-                <p className='signature-6'>{randomSignatures.length > 5 ? randomSignatures[5].signature : ''}</p>
-            </div>
-        </div>
+        <>
+            <p className='signature-default signature-1'>{randomSignatures.length > 5 ? randomSignatures[0].signature : ''}</p>
+            <p className='signature-default signature-2'>{randomSignatures.length > 5 ? randomSignatures[1].signature : ''}</p>
+            <p className='signature-default signature-3'>{randomSignatures.length > 5 ? randomSignatures[2].signature : ''}</p>
+
+            <p className='signature-default signature-4'>{randomSignatures.length > 5 ? randomSignatures[3].signature : ''}</p>
+            <p className='signature-default signature-5'>{randomSignatures.length > 5 ? randomSignatures[4].signature : ''}</p>
+            <p className='signature-default signature-6'>{randomSignatures.length > 5 ? randomSignatures[5].signature : ''}</p>
+        </>
 
     );
 }
