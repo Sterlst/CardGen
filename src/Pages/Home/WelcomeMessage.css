@@ -4,6 +4,7 @@
 .welcome-message {
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    padding-bottom: 20%;
     grid-area: w;
   }
 

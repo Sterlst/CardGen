@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header-page {
+    background-image: url(../../Images/aboutbackground1.png);
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+}
+
+.header-container {
+    text-align: center;
+    color: #1C7997;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.meet-the-team-button {
+    transition: transform 50ms ease-in-out;
+}
+
+.meet-the-team-button:hover {
+    transform: translateY(-5px);
+}
+  
+.leadership-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #1C7997;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    font-family: 'Open Sans', sans-serif;
+}
+
+  .column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .container {
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

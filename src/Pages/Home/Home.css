@@ -5,6 +5,7 @@
         grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
         gap: 2em;
         grid-template-areas:
+            "n"
             "w"
             "s1"
             "s2"
@@ -18,10 +19,21 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
     gap: 0.5em;
     grid-template-areas:
+        "n n n n"
         "s1 s2 s3 s4"
         "s5 w w s6"
-        "c c c c"
+        "c c c c";
+    align-items: flex-start;
+}
+
+.home {
+    background-image: url(../../Images/background.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
 }

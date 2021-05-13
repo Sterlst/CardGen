@@ -3,7 +3,7 @@
 .navigation-bar {
     font-family: 'Open Sans', sans-serif;
     background-color: transparent;
-    grid-area: header;
+    grid-area: n;
     animation: fadeIn 3s;
 }
 
