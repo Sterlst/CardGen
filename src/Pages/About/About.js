@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import Navigationbar from '../../Components/Navigationbar';
 import Sterling from '../../Images/Sterling.jpg';
 import Blake from '../../Images/Blake.jpg';
@@ -20,7 +19,7 @@ const About = () => {
                         <p>inspiration for unique card signatures</p>
                         <p>for all card writing occasions.</p>
                     </h4>
-                    <Button className="meet-the-team-button">Meet the Team</Button>
+                    <button className="meet-the-team-button">Meet the Team</button>
                 </div>
             </div>
 
