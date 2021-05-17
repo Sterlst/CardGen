@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+.about-page-container {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .header-page {
     background-image: url(../../Images/aboutbackground1.png);
+    padding: .25em 0;
     width: auto;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
     background-size: cover;
     background-position: center;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .header-container {
-    text-align: center;
+    display: block;
+    align-items: center;
+    margin-right: 40%;
     color: #1C7997;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .meet-the-team-button {
@@ -50,27 +58,27 @@
     text-align: center;
     background-color: #ffffff;
     color: #1C7997;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.row {
-    font-family: 'Open Sans', sans-serif;
 }
 
   .column {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 0 8px;
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     margin: 8px;
+    border-color: transparent;
+  }
+
+  .profile-pic {
+    height: 50%;
+    width: 50%;
+    align-self: center;
   }
 
   .container {
-    padding: 0 16px;
     text-align: center;
   }
   

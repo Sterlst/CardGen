@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigationbar from '../../Components/Navigationbar';
 import Sterling from '../../Images/Sterling.jpg';
-import Blake from '../../Images/Blake.jpg';
+import Blake from '../../Images/BlakeBit.svg';
 
 import './About.css';
 
@@ -33,24 +33,31 @@ const About = () => {
             <div className="row">
                 <div className="column">
                     <div className="card">
-                        <img src={Sterling} alt="Sterling"/>
+                        <img src={Sterling} alt="Sterling" className="profile-pic"/>
                             <div className="container">
-                                <h2>Sterling</h2>
-                                <h2>Tamboline</h2>
-                                <p className="title">Cheif Engineer</p>
+                                <h3>Sterling Tamboline</h3>
+                                <p className="title">Programming Guru</p>
                                 <p>Some text that describes me.</p>
+                                <div>
+                                    <p>LinkedIn</p>
+                                    <p>GitHub</p>
+                                </div>
                             </div>
                     </div>
                 </div>
 
                 <div className="column">
                     <div className="card">
-                        <img src={Blake} alt="Blake"/>
+                        <img src={Blake} alt="Blake" className="profile-pic"/>
                             <div className="container">
-                                <h2>Blake</h2>
-                                <h2>Tamboline</h2>
-                                <p className="title">Cheif Designer</p>
-                                <p>Some text that describes me.</p>
+                                <h3>Blake Tamboline</h3>
+                                <p className="title">Creative Leader</p>
+                                <p>Hi my name is Blake! I am a self-taught programmer 
+                                    with passion for technology and building useful applications. </p>
+                                <div>
+                                    <p>LinkedIn</p>
+                                    <p>GitHub</p>
+                                </div>
                             </div>
                     </div>
                 </div>
