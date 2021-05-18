@@ -1,45 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-.about-page-container {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .header-page {
-    background-image: url(../../Images/aboutbackground1.png);
-    padding: .25em 0;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    background-size: cover;
-    background-position: center;
-    overflow-y: auto;
+  background-image: url(../../Images/aboutbackground1.png);
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
 }
 
 .header-container {
-    display: block;
-    align-items: center;
-    margin-right: 40%;
-    color: #1C7997;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  color: #1C7997;
+  margin-right: 33%;
+  margin-top: 5%;
+}
+
+.what-to-say {
+  font-size: 72px;
+  font-size: 5vw;
+  font-weight: bolder;
+}
+
+.header-quote {
+  font-size: 32px;
+  font-size: 2.5vw;
+  font-weight: 500;
+  display: block;
 }
 
 .meet-the-team-button {
   display: inline-block;
+  float: none;
+  margin-top: 30px;
   padding:0.5em 3em;
   background-color: #1C7997;
   border:0.16em solid #1C7997;
-  margin:0 0.3em 0.3em 0;
   box-sizing: border-box;
-  text-decoration:none;
   text-transform:uppercase;
   font-family:'Open Sans', sans-serif;
-  font-weight:400;
+  font-weight:500;
   color:#FFFFFF;
   text-align:center;
   vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -47,49 +55,75 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .meet-the-team-button:hover, .meet-the-team-button:focus, .meet-the-team-button:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
 
+.empty {
+  margin-top: 20%;
+}
   
 .leadership-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #ffffff;
-    color: #1C7997;
+  background-color: rgba(255, 255, 255, 0.80);
+  padding: 50px;
+  text-align: center;
+  color: #1C7997;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.leadership {
+  font-size: 3.5vw;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.leadership-quote {
+  font-size: 1.75vw;
+  padding-top: 10px;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 8px;
+  border-color: transparent;
+}
+
+.profile-pic {
+  height: 50%;
+  width: 50%;
+  align-self: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.exec-name {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.title {
+  color: grey;
+}
+  
+@media screen and (max-width: 650px) {
   .column {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    margin: 8px;
-    border-color: transparent;
+    width: 100%;
+    display: block;
   }
 
-  .profile-pic {
-    height: 50%;
+  .meet-the-team-button {
     width: 50%;
-    align-self: center;
+    font-size: 50%;
   }
-
-  .container {
-    text-align: center;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+}
