@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from '../../Images/Logo.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 const Navigationbar = () => {
