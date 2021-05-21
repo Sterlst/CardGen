@@ -22,12 +22,12 @@ const About = () => {
                         <p>inspiration for unique card signatures</p>
                         <p>for all card writing occasions.</p>
                     </h4>
-                    <button className="meet-the-team-button">Meet the Team</button>
+                    <button className='meet-the-team-button'>Meet the Team</button>
                 </div>
                 <p className='empty'></p>
             </div>
 
-            <div className="leadership-section">
+            <div className='leadership-section'>
                 <h1 className='leadership'>Leadership</h1>
                 <div className='leadership-quote'>
                     <p>Our team is focused on crafting elegant and effective card</p>
@@ -35,13 +35,13 @@ const About = () => {
                     <p>perfectly on every special occasion.</p>
                 </div>
 
-                <div className="row">
-                    <div className="column">
-                        <div className="card">
-                            <img src={Sterling} alt="Sterling" className="profile-pic"/>
-                                <div className="container">
+                <div className='row'>
+                    <div className='column'>
+                        <div className='card'>
+                            <img src={Sterling} alt='Sterling' className='profile-pic'/>
+                                <div className='container'>
                                     <h3 className='exec-name'>Sterling Tamboline</h3>
-                                    <p className="title">Programming Guru</p>
+                                    <p className='title'>Programming Guru</p>
                                     <p>Hi my name is Sterling!</p>
                                     <div>
                                         <p>LinkedIn</p>
@@ -51,12 +51,12 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="column">
-                        <div className="card">
-                            <img src={Blake} alt="Blake" className="profile-pic"/>
-                                <div className="container">
+                    <div className='column'>
+                        <div className='card'>
+                            <img src={Blake} alt='Blake' className='profile-pic'/>
+                                <div className='container'>
                                     <h3 className='exec-name'>Blake Tamboline</h3>
-                                    <p className="title">Creative Leader</p>
+                                    <p className='title'>Creative Leader</p>
                                     <p>Hi my name is Blake! I am a self-taught programmer 
                                         with passion for technology and building useful applications. </p>
                                     <div>
