@@ -3,6 +3,7 @@ import WelcomeMessage from './WelcomeMessage.js';
 import CardCarousel from '../../Components/CardCarousel/CardCarousel.js';
 import Signatures from '../../Components/Signatures/Signatures';
 import { useEasybase } from 'easybase-react';
+import Navbar from '../../Components/Navbar/Navbar';
 import './Home.css';
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
     
     return (
         <div className='grid-container grid-container-mobile home'>
+            <Navbar />
             <WelcomeMessage />
             <Signatures occassion={occassion} relationship={relationship} easybaseData={easybaseData}/>
             <CardCarousel setOccassion={setOccassion} setRelationship={setRelationship}/>

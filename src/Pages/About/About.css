@@ -115,6 +115,16 @@
 .title {
   color: grey;
 }
+
+.brand-icons {
+  font-size: xx-large;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
   
 @media screen and (max-width: 650px) {
   .column {

@@ -3,7 +3,7 @@
 .navbar {
     font-family: 'Open Sans', sans-serif;
     background-color: transparent;
-    grid-area: header;
+    grid-area: n;
     animation: fadeIn 3s;
     display: flex;
     justify-content: center;

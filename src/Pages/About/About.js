@@ -1,6 +1,10 @@
 import React from 'react';
 import Sterling from '../../Images/SterlingBit.svg';
 import Blake from '../../Images/BlakeBit.svg';
+import Navbar from '../../Components/Navbar/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 import './About.css';
 
@@ -10,6 +14,7 @@ const About = () => {
 
         <div className='about-page-container'>
             <div className='header-page'>
+                <Navbar />
                 <div className='header-container'>
                     <h1 className = 'what-to-say'>
                         <p>Knowing What</p>
@@ -40,10 +45,10 @@ const About = () => {
                                 <div className='container'>
                                     <h3 className='exec-name'>Sterling Tamboline</h3>
                                     <p className='title'>Programming Guru</p>
-                                    <p>Hi my name is Sterling!</p>
-                                    <div>
-                                        <p>LinkedIn</p>
-                                        <p>GitHub</p>
+                                    <p>Hi my name is Sterling! I am a multi-class rank one gladiator.</p>
+                                    <div className='brand-icons'>
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                        <FontAwesomeIcon icon={faGithub} />
                                     </div>
                                 </div>
                         </div>
@@ -57,9 +62,9 @@ const About = () => {
                                     <p className='title'>Creative Leader</p>
                                     <p>Hi my name is Blake! I am a self-taught programmer 
                                         with passion for technology and building useful applications. </p>
-                                    <div>
-                                        <p>LinkedIn</p>
-                                        <p>GitHub</p>
+                                    <div className='brand-icons'>
+                                        <FontAwesomeIcon icon={faLinkedin} />
+                                        <FontAwesomeIcon icon={faGithub} />
                                     </div>
                                 </div>
                         </div>
