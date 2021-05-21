@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigationbar from '../../Components/Navigationbar';
 import Sterling from '../../Images/SterlingBit.svg';
 import Blake from '../../Images/BlakeBit.svg';
 
@@ -11,7 +10,6 @@ const About = () => {
 
         <div className='about-page-container'>
             <div className='header-page'>
-                <Navigationbar />
                 <div className='header-container'>
                     <h1 className = 'what-to-say'>
                         <p>Knowing What</p>
