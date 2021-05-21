@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    grid-area: header;
+    animation: fadeIn 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky !important;
+    border-bottom: none;
+    top: 0;
+    z-index: 20;
+}
+
+.navbar.active {
+    background: rgb(255, 255, 255, 0.8) !important;
+    position: sticky;
+    border-bottom: 1px solid rgba(241, 243, 245) !important;
+    z-index: 20;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.navbar-logo {
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-links {
+    color: rgb(0, 0, 0, 0.75) !important;
+    text-decoration: none !important;
+    padding: 0.10rem 1rem;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-item {
+    line-height: 30px;
+    margin-right: 1rem;
+}
+
+.navbar-item::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: 0.7s ease;
+}
+
+.navbar-item:hover::after {
+    width: 100%;
+    background: rgb(0, 0, 0, .75);
+}
+
+.navbar-item .active {
+    color: rgb(0, 0, 0, 1);;
+    border-bottom: 2px solid rgb(0, 0, 0, 1);;
+}
+
+.navbar-icon {
+    display: none;
+}
+
+@media screen and (max-width: 759px) {
+
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar.active {
+        border-bottom: 1px solid rgba(241, 243, 245) !important;
+    }
+    .navbar-menu {
+        position: sticky;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        min-height: 100vh;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.4s ease;
+    }
+
+    .navbar-menu.active {
+        background: rgba(241, 243, 245, 0.90);
+        left: 0px;
+        transition: all 0.4s ease;
+        align-items: center;
+    }
+
+    .navbar-item .active {
+        color: #000;
+        border: none;
+    }
+
+    .navbar-item {
+        width: 80%;
+        flex: 1;
+    }
+
+    .navbar-links {
+        padding-top: 1.5rem;
+        width: 100%;
+        display: table;
+        
+    }
+
+    .navbar-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 30%);
+        font-size: 2rem;
+        cursor: pointer;
+        color: #000;
+        z-index: 2;
+      }
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
