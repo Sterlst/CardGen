@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header-page {
+  background-image: url(../../Images/aboutbackground.png);
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  overflow-y: auto;
+}
+
+.header-container {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  color: #1C7997;
+  margin-right: 33%;
+  margin-top: 5%;
+}
+
+.what-to-say {
+  font-size: 72px;
+  font-size: 5vw;
+  font-weight: bolder;
+}
+
+.header-quote {
+  font-size: 32px;
+  font-size: 2.5vw;
+  font-weight: 500;
+  display: block;
+}
+
+.meet-the-team-button {
+  display: inline-block;
+  float: none;
+  margin-top: 30px;
+  padding:0.5em 3em;
+  background-color: #1C7997;
+  border:0.16em solid #1C7997;
+  box-sizing: border-box;
+  text-transform:uppercase;
+  font-family:'Open Sans', sans-serif;
+  font-weight:500;
+  color:#FFFFFF;
+  text-align:center;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.meet-the-team-button:hover, .meet-the-team-button:focus, .meet-the-team-button:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.empty {
+  margin-top: 20%;
+}
+  
+.leadership-section {
+  background-color: rgba(255, 255, 255, 0.80);
+  padding: 50px;
+  text-align: center;
+  color: #1C7997;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.leadership {
+  font-size: 3.5vw;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.leadership-quote {
+  font-size: 1.75vw;
+  padding-top: 10px;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  margin: 8px;
+  border-color: transparent;
+}
+
+.profile-pic {
+  height: 50%;
+  width: 50%;
+  align-self: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.exec-name {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.title {
+  color: grey;
+}
+
+.brand-icons {
+  font-size: xx-large;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
